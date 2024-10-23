@@ -85,7 +85,7 @@
       ]
     },
     {
-      "group": "Scraper API",
+      "group": "Render API",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
