@@ -77,7 +77,7 @@
     {
       "group": "Scraper API",
       "pages": [
-        "api-reference/scraperAPI/POST_PUT_DELETE",
+        "api-reference/scraperAPI/otherMethods",
         "api-reference/scraperAPI/setCookies",
         "api-reference/scraperAPI/setHeaders",
         "api-reference/scraperAPI/disableRedirection",
