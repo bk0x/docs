@@ -6,26 +6,11 @@ ScrapeDev is a powerful tool designed to simplify web data extraction by avoidin
 
 
 
-## Welcome
+## Token
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+A unique token is created for each user who registers on our site. In order to make API calls, you must specify your own token in the URL with the "token" parameter.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+## URL
 
-## Authentication
+In ScrapeDev, ensuring that the URLs you provide are correctly formatted is crucial for successful data extraction. Each URL submitted through our API must begin with either "http://" or "https://", as this specifies the protocol used to access the target website. This protocol validation is essential to make sure your requests are correctly routed and processed.
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
