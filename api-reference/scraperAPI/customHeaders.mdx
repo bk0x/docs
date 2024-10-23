@@ -1,0 +1,20 @@
+---
+title: 'Custom Headers'
+description: 'Description of your new file.'
+---
+
+It is a feature that you can use only when there is one or more header parameters that you want to use for the needs of the target website, without breaking the requests we have created for the target website.
+
+After setting the query parameter as extraHeaders=true, the header values ​​you will send with the X-Sdev-** prefix will be sent to the target website.
+
+| Parameter | Value       |
+| ------------ | ----- |
+| customHeaeders     | true  |
+
+<RequestExample>
+
+```bash Request
+  curl --request GET --url https://api.scrape.com/api/?token=YOU_TOKEN&url=https://httpbin.org/anything
+```
+
+</RequestExample>
