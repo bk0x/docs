@@ -1,0 +1,14 @@
+---
+title: 'Set Cookies'
+description: 'Description of your new file.'
+---
+
+You can pass cookies to the target website by encoding setCookies=cookie1=value1;cookie2=value2; and our system will send the cookies you have forwarded to the target website.
+
+| Parameter | Cookies       |
+| ------------ | ----- |
+| cookies     | cookie1=value1;cookie2=value2;                     |
+
+```bash Example CURL Request
+  curl --request GET --url https://api.scrape.com/api/?token=YOU_TOKEN&cookies=cookie1%3Dvalue1%3Bcookie2%3Dvalue2%3B
+```
