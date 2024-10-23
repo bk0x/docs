@@ -77,7 +77,8 @@
     {
       "group": "Scraper API",
       "pages": [
-        "api-reference/scraperAPI/setcookies"
+        "api-reference/scraperAPI/setCookies",
+        "api-reference/scraperAPI/setHeaders"
       ]
     },
     {
