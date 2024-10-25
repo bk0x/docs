@@ -79,7 +79,7 @@
       "pages": [
         "api-reference/scraperAPI/otherMethods",
         "api-reference/scraperAPI/setcookies",
-        "api-reference/scraperAPI/customHeaders",
+        "api-reference/scraperAPI/customheaders",
         "api-reference/scraperAPI/disableRedirection",
         "api-reference/scraperAPI/timeout"
       ]
